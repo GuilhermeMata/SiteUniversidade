@@ -17,7 +17,7 @@
       <a class="nav-link" style="color: black;" href="#scrollspyHeading1">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" style="color: black;" href="#scrollspyHeading2">Quem Somos</a>
+      <a class="nav-link" style="color: black;" href="#scrollspyHeading2">Quem Somos Nós</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" style="color: black;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Nosso Contato</a>
