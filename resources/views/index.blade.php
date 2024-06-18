@@ -43,7 +43,7 @@
 <div class="container">
   <div class="card-body">
     <blockquote class="blockquote mb-0">
-      <p>Acesse Nos Cursos Abaixo:</p>
+      <p>Acesse Nossos Cursos Abaixo:</p>
     </blockquote>
   </div>
 </div>
@@ -60,6 +60,7 @@
       <div class="card-body">
         <h5 class="card-title">Engenharia de Software e Desenvolvimento de Aplicativos</h5>
         <p class="card-text">Desde a concepção até a implementação, nossos cursos ensinam habilidades essenciais para criar soluções de software inovadoras e escaláveis.</p>
+        <a href="{{ ('engenharia') }}" class="btn btn-primary">Matrícula</a>
       </div>
       <div class="card-footer">
         <small class="text-body-secondary">Graduação 8 Semestres</small>
@@ -72,6 +73,7 @@
       <div class="card-body">
         <h5 class="card-title">Inteligência Artificial e Machine Learning</h5>
         <p class="card-text">Explore as técnicas avançadas que estão transformando indústrias como automação, análise preditiva e reconhecimento de padrões.</p>
+        <a href="{{ ('inteligencia') }}" class="btn btn-primary">Matrícula</a>
       </div>
       <div class="card-footer">
         <small class="text-body-secondary">Graduação 8 Semestres</small>
@@ -83,9 +85,8 @@
       <img src="https://img.freepik.com/vetores-gratis/fundo-de-particulas-abstratas-tecnologia-realista_23-2148433468.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1718668800&semt=ais_user" class="card-img-top" alt="tec3">
       <div class="card-body">
         <h5 class="card-title">Tecnologia da Informação e Infraestrutura de Redes</h5>
-        <p class="card-text">Aprenda a projetar, implementar e gerenciar redes de TI complexas para garantir conectividade e desempenho confiáveis.
-
-</p>
+        <p class="card-text">Aprenda a projetar, implementar e gerenciar redes de TI complexas para garantir conectividade e desempenho confiáveis.</p>
+        <a href="{{ ('tecnologia') }}" class="btn btn-primary">Matrícula</a>
       </div>
       <div class="card-footer">
         <small class="text-body-secondary">Graduação 8 Semestres</small>

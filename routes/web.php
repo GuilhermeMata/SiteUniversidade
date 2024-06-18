@@ -13,3 +13,15 @@ Route::get('/index', function () {
 Route::get('/quemsomos', function () {
     return view('quemsomos');
 });
+
+Route::get('/engenharia', function () {
+    return view('engenharia');
+});
+
+Route::get('/inteligencia', function () {
+    return view('inteligencia');
+});
+
+Route::get('/tecnologia', function () {
+    return view('tecnologia');
+});
