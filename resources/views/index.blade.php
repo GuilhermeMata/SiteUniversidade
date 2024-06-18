@@ -40,24 +40,62 @@
 
   <br>
 
-  <div class="card text-center">
-    <div class="card-header">
-      T.C.
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">TC: Transformando o Conhecimento em Tecnologia</h5>
-      <p class="card-text">
-        Na TC, nossa missão é impulsionar a próxima geração de inovadores digitais. Em um ambiente vibrante e colaborativo, exploramos os limites da ciência da computação e transformamos ideias em realidade. Com um corpo docente apaixonado e laboratórios de ponta, incentivamos a excelência acadêmica e a aplicação prática do conhecimento.
-
-        Prepare-se para uma experiência educacional que vai além das salas de aula, mergulhando em projetos desafiadores e colaborativos que moldam o futuro da tecnologia. Na TC, estamos comprometidos com a formação de líderes que não apenas entendem, mas também criam o futuro digital.
-
-        Descubra seu potencial na TC, onde cada linha de código conta uma história de inovação e descoberta. Junte-se a nós e transforme o conhecimento em tecnologia.
-      </p>
-      <a href="#" class="btn btn-primary">Faça Sua Inscrição Aqui!</a>
-    </div>
-    <div class="card-footer text-body-secondary">Sua Faculdade De Tecnologia</div>
+<div class="container">
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Acesse Nos Cursos Abaixo:</p>
+    </blockquote>
   </div>
+</div>
+</div>
+
+
   <br><br>
+  
+  <div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://img.freepik.com/vetores-gratis/fundo-de-tecnologia-gradiente-geometrico-azul_52683-78527.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1718496000&semt=ais_user" class="card-img-top" alt="tec">
+      <div class="card-body">
+        <h5 class="card-title">Engenharia de Software e Desenvolvimento de Aplicativos</h5>
+        <p class="card-text">Desde a concepção até a implementação, nossos cursos ensinam habilidades essenciais para criar soluções de software inovadoras e escaláveis.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Graduação 8 Semestres</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://img.freepik.com/vetores-gratis/plano-de-fundo-realista-em-estilo-futurista_23-2149129125.jpg" class="card-img-top" alt="tec2">
+      <div class="card-body">
+        <h5 class="card-title">Inteligência Artificial e Machine Learning</h5>
+        <p class="card-text">Explore as técnicas avançadas que estão transformando indústrias como automação, análise preditiva e reconhecimento de padrões.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Graduação 8 Semestres</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://img.freepik.com/vetores-gratis/fundo-de-particulas-abstratas-tecnologia-realista_23-2148433468.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1718668800&semt=ais_user" class="card-img-top" alt="tec3">
+      <div class="card-body">
+        <h5 class="card-title">Tecnologia da Informação e Infraestrutura de Redes</h5>
+        <p class="card-text">Aprenda a projetar, implementar e gerenciar redes de TI complexas para garantir conectividade e desempenho confiáveis.
+
+</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Graduação 8 Semestres</small>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<br>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
