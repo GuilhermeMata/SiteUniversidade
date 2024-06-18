@@ -9,7 +9,7 @@
 <body>
 
   <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{ ('index') }}">
       <img src="{{ asset('icon/tc.jpg') }}" width="100px" height="100px" alt="logo">
     </a>
     <ul class="nav nav-pills">
