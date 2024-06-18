@@ -14,10 +14,10 @@
     </a>
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link" style="color: black;" href="#scrollspyHeading1">Home</a>
+        <a class="nav-link" style="color: black;" href="{{ ('index') }}">Home</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" style="color: black;" href="#">Quem Somos Nós</a>
+      <a class="nav-link" style="color: black;" href="{{ ('quemsomos') }}">Quem Somos Nós</a>
 
       </li>
       <li class="nav-item dropdown">
