@@ -60,7 +60,7 @@
       <div class="card-body">
         <h5 class="card-title">Engenharia de Software e Desenvolvimento de Aplicativos</h5>
         <p class="card-text">Desde a concepção até a implementação, nossos cursos ensinam habilidades essenciais para criar soluções de software inovadoras e escaláveis.</p>
-        <a href="{{ ('engenharia') }}" class="btn btn-primary">Matrícula</a>
+        <a href="{{ ('engenharia') }}" class="btn btn-primary">Matricule-se</a>
       </div>
       <div class="card-footer">
         <small class="text-body-secondary">Graduação 8 Semestres</small>
@@ -73,7 +73,7 @@
       <div class="card-body">
         <h5 class="card-title">Inteligência Artificial e Machine Learning</h5>
         <p class="card-text">Explore as técnicas avançadas que estão transformando indústrias como automação, análise preditiva e reconhecimento de padrões.</p>
-        <a href="{{ ('inteligencia') }}" class="btn btn-primary">Matrícula</a>
+        <a href="{{ ('inteligencia') }}" class="btn btn-primary">Matricule-se</a>
       </div>
       <div class="card-footer">
         <small class="text-body-secondary">Graduação 8 Semestres</small>
@@ -86,7 +86,7 @@
       <div class="card-body">
         <h5 class="card-title">Tecnologia da Informação e Infraestrutura de Redes</h5>
         <p class="card-text">Aprenda a projetar, implementar e gerenciar redes de TI complexas para garantir conectividade e desempenho confiáveis.</p>
-        <a href="{{ ('tecnologia') }}" class="btn btn-primary">Matrícula</a>
+        <a href="{{ ('tecnologia') }}" class="btn btn-primary">Matricule-se</a>
       </div>
       <div class="card-footer">
         <small class="text-body-secondary">Graduação 8 Semestres</small>

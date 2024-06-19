@@ -9,7 +9,7 @@
 <body>
 
   <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{ ('index') }}">
       <img src="{{ asset('icon/tc.jpg') }}" width="100px" height="100px" alt="logo">
     </a>
     <ul class="nav nav-pills">
@@ -32,24 +32,26 @@
 
   <br>
 
-<div class="container">
+
+
+  <div class="container">
   <form class="row g-3 needs-validation" novalidate>
-  <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+  <div class="col-md-5">
+    <label for="validationCustom01" class="form-label">Nome:</label>
+    <input type="text" class="form-control" id="validationCustom01" required>
     <div class="valid-feedback">
       Looks good!
     </div>
   </div>
-  <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+  <div class="col-md-5">
+    <label for="validationCustom02" class="form-label">Sobrenome:</label>
+    <input type="text" class="form-control" id="validationCustom02" required>
     <div class="valid-feedback">
       Looks good!
     </div>
   </div>
-  <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">Username</label>
+  <div class="col-md-5">
+    <label for="validationCustomUsername" class="form-label">E-mail:</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="inputGroupPrepend">@</span>
       <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
@@ -58,25 +60,25 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6">
-    <label for="validationCustom03" class="form-label">City</label>
+  <div class="col-md-5">
+    <label for="validationCustom03" class="form-label">Cidade:</label>
     <input type="text" class="form-control" id="validationCustom03" required>
     <div class="invalid-feedback">
       Please provide a valid city.
     </div>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-5">
     <label for="validationCustom04" class="form-label">State</label>
     <select class="form-select" id="validationCustom04" required>
-      <option selected disabled value="">Choose...</option>
+      <option selected disabled value="">Estado</option>
       <option>...</option>
     </select>
     <div class="invalid-feedback">
       Please select a valid state.
     </div>
   </div>
-  <div class="col-md-3">
-    <label for="validationCustom05" class="form-label">Zip</label>
+  <div class="col-md-5">
+    <label for="validationCustom05" class="form-label">CEP:</label>
     <input type="text" class="form-control" id="validationCustom05" required>
     <div class="invalid-feedback">
       Please provide a valid zip.
@@ -86,7 +88,7 @@
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
       <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
+        Aceito Enviar esse Formulário para Finalizar a Matricula
       </label>
       <div class="invalid-feedback">
         You must agree before submitting.
@@ -94,10 +96,11 @@
     </div>
   </div>
   <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
+    <button class="btn btn-primary" type="submit">Enviar</button>
   </div>
 </form>
 </div>
+      
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
