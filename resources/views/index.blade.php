@@ -30,15 +30,17 @@
     </ul>
   </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-6 mx-auto">
-        <img src="{{ asset('fotosfaculdade/aluna.jpg') }}" width="600px" height="350px" alt="logo">     
+  <div class="d-flex justify-content-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 mx-auto">
+          <img src="{{ asset('fotosfaculdade/aluna.jpg') }}" width="600px" height="350px" alt="logo">     
+        </div>
       </div>
     </div>
   </div>
-
-  <br>
+  
+<br>
 
 <div class="container">
   <div class="card-body">
